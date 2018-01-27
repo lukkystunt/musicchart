@@ -14,7 +14,7 @@ The app intent is mainly for learning purpose, feel free to tweak and learn, so 
 - Nativescript cli
 - Android OR IOS emulator
 
-##Installiation
+##Installation
 - `tns install`
 
 ##To Run On Emulator

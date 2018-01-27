@@ -6,7 +6,7 @@ MusicChart is a simple music application built with nativescript and angular 5 u
 
 MusicChart was created as an experiment to learn and explore the awesome nativescript and angular framework.
 The app uses the Deezer API to retrieve track data (thanks [Deezer!](https://www.deezer.com)).
-For audio playback we rely on the  nativescript-audio.
+For audio playback we rely on the  [nativescript-audio!](https://www.npmjs.com/package/nativescript-audio).
 
 The app intent is mainly for learning purpose, feel free to tweak and learn, so the nativescript community can keep growing.
 

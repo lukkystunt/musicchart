@@ -1,0 +1,15 @@
+<StackLayout orientation="horizontal">
+    <Button textWrap="true" width="200"  style="background-color: #8d8d8d; margin-top: 6; margin-left: -4; border: none;"  visibility="{{mediaControlPlay ? 'visible' : 'collapse'}}"  (tap)="togglePlay()">
+        <FormattedString>
+            <Span text="&#xf04b;" class="fa"></Span>
+        </FormattedString>
+    </Button>
+    <Button textWrap="true" width="200" style="background-color: #8d8d8d; margin-top: 6;  border: none;" visibility="{{mediaControlPause ? 'visible' : 'collapse'}}" (tap)="togglePlay()">
+        <FormattedString>
+            <Span text="&#xf04c;"class="fa"></Span>
+        </FormattedString>
+    </Button>
+    <Label [text]="trackDetails" textWrap="true" width="250" style="background-color: #8d8d8d; margin-top: 12; margin-left: -4; padding: 5; font-size: 12; font-weight: bold;">
+
+    </Label>
+</StackLayout>

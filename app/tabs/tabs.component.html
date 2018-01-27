@@ -1,0 +1,23 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" [text]="title"></Label>
+</ActionBar>
+<GridLayout row="*, 60">
+    <GridLayout  row="0">
+        <TabView class="icon" (selectedIndexChanged)="onSelectedIndexChanged($event)">
+            <StackLayout *tabItem="{title: 'Music Chart', iconSource: getIconSource('home')}">
+                <Home></Home>
+            </StackLayout>
+            <StackLayout *tabItem="{title: 'Track Search', iconSource: getIconSource('search')}">
+                <Search></Search>
+            </StackLayout>
+        </TabView>
+    </GridLayout>
+
+    <AbsoluteLayout  row="1">
+        <StackLayout  class="float-media-btn-container">
+            <Player></Player>
+        </StackLayout>
+    </AbsoluteLayout>
+</GridLayout>
+
+

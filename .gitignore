@@ -1,0 +1,11 @@
+node_modules/
+platforms/
+.DS_Store
+.idea/
+npm-debug.log
+*.js
+*.js.map
+**/*.js
+**/*.css
+hooks/
+lib/

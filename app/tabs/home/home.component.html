@@ -1,0 +1,17 @@
+<GridLayout rows="*">
+    <StackLaout row="0">
+        <ActivityIndicator width="30" height="30" [busy]="isBusy" [visibility]="isBusy ? 'visible' : 'collapsed'" horizontalAlignment="center" verticalAlignment="center"></ActivityIndicator>
+
+        <ListView [items]="charts" row="0" col="0" class="list-group">
+            <ng-template let-item="item">
+                <GridLayout columns="auto, *" rows="auto" class="list-group-item" (tap)="onTap(item)" >
+                    <Image [src]="item.artist.picture_small" col="0" class="thumb img-rounded"></Image>
+                    <StackLayout row="0" col="1">
+                        <Label [text]="item.title_short" textWrap="true" class="list-group-item-heading"></Label>
+                        <Label [text]="item.artist.name" textWrap="true" class="list-group-item-heading"></Label>
+                    </StackLayout>
+                </GridLayout>
+            </ng-template>
+        </ListView>
+    </StackLaout>
+</GridLayout>

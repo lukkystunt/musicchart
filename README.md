@@ -37,6 +37,6 @@ Deezer - [https://www.deezer.com](https://developers.deezer.com/guidelines/getti
 
 ## License
 
-[MIT](../blob/master/LICENSE)
+[MIT](../master/LICENSE)
 
 ##Happy Learning

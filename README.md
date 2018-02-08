@@ -24,6 +24,7 @@ For IOS `tns run ios`
 
 ##Known Issue
 IOS doesn't render well and media doesn't play
+More issues and features will be logged
 
 ## Resources
 
